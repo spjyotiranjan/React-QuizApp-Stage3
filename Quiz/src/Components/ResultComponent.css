@@ -1,0 +1,68 @@
+.result{
+    height: 35vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.heading{
+    color: #008001;
+}
+.result-box{
+    background-color: white;
+    width: 48vw;
+    padding: 3vw 2vw;
+    height: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-left: 6px solid #B7B7F5;
+}
+#comment{
+    font-size: 1.5vw;
+}
+#score-declare{
+    font-size: 2.7vw;
+    margin-bottom: 2vw;
+    color: #0000ff;
+}
+#detailed-results{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    /* margin-bottom: 1vw; */
+}
+.details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.result-actions{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.result-action-btn{
+    font-size: 1.1vw;
+    width: 42%;
+    padding: 2px 0;
+}
+#playAgain-btn{
+    border-top: 3px solid #8584D3;
+    border-left: 3px solid #8584D3;
+    border-bottom: 3px solid #47398D;
+    border-right: 3px solid #47398D;
+    color: #8584D3;
+}
+#backToHome-btn{
+    border-top: 3px solid #008001;
+    border-left: 3px solid #008001;
+    border-bottom: 3px solid #123814;
+    border-right: 3px solid #123814;
+    color: #008001;
+
+}
